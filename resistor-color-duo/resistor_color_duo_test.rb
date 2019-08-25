@@ -25,6 +25,6 @@ class ResistorColorDuoHashTest < Minitest::Test
 
   def test_ignore_additional_colors
   # skip
-  assert_equal 51, ResistorColorDuo.value(["green", "brown", "orange"])
-end
+    assert_equal 51, ResistorColorDuo.value(["green", "brown", "orange"])
+  end
 end
