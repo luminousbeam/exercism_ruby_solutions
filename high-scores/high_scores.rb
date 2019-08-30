@@ -22,7 +22,7 @@ class HighScores
   end
 
   def latest_is_personal_best?
-    latest == personal_best ? true : false
+    latest == personal_best
   end
 
 end
