@@ -4,7 +4,7 @@ class SpaceAge
   attr_reader :age_in_secs
 
   def initialize(age_in_secs)
-    @age_in_secs = age_in_secs.to_f
+    @age_in_secs = age_in_secs
     @earth_yr_in_secs = 31_557_600.to_f
   end
 
