@@ -6,8 +6,8 @@ class Matrix
   end
 
   def rows
-    @string.split("\n").map { |row|
-      row.split(' ').map(&:to_i) }
+    @string.lines.map { |row|
+      row.lines(' ').map(&:to_i) }
   end
 
   def columns
