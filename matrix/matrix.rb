@@ -7,7 +7,7 @@ class Matrix
 
   def rows
     @string.lines.map { |row|
-      row.lines(' ').map(&:to_i) }
+      row.split(' ').map(&:to_i) }
   end
 
   def columns
